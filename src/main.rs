@@ -29,6 +29,18 @@ fn main() {
     print!("anna has {} elements\n", anna.len());
 
 
+    // primitive types #############################
+
+    let xyz = 999.1;
+    if xyz == 13.33 {
+        print!("THE VARIABLE HAS A VALUE OF 13.33!!");
+    } else if xyz == 15.619 {
+        print!("THE VARIABLE HAS A VALUE OF 15.619!!");
+    } else {
+        print!("Aww shit. It's just not happening today");
+    }
+
+
 }
 
 fn print_sum(x: i32, y: i32) {
