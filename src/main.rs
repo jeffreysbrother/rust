@@ -29,20 +29,26 @@ fn main() {
     print!("anna has {} elements\n", anna.len());
 
 
-    // primitive types #############################
+    // if statements #############################
 
     let xyz = 999.1;
     if xyz == 13.33 {
-        print!("THE VARIABLE HAS A VALUE OF 13.33!!");
+        print!("THE VARIABLE HAS A VALUE OF 13.33!!\n");
     } else if xyz == 15.619 {
-        print!("THE VARIABLE HAS A VALUE OF 15.619!!");
+        print!("THE VARIABLE HAS A VALUE OF 15.619!!\n");
     } else {
-        print!("Aww shit. It's just not happening today");
+        print!("Aww shit. It's just not happening today\n");
     }
 
+
+    // mutability #############################
+
+    let mut james = 5;
+    james = 17;
+    print!("The value of the james variable is: {}\n", james);
 
 }
 
 fn print_sum(x: i32, y: i32) {
-    print!("the sum of the two values provided is: {}", x + y);
+    print!("the sum of the two values provided is: {}\n", x + y);
 }
